@@ -345,6 +345,6 @@ Reasons for choosing the souce of XRDP and XRDPXORG over the repo versions is th
 
 ```
 
-# Kairops duing
+# TIC para Bien duing
 
 Look at the [duing readme](duing/README.md)

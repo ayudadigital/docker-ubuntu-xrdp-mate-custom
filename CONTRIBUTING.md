@@ -22,7 +22,7 @@ We're glad to get pull request if any functionality is missing or something is b
 
 * Explain the issue that your PR is solving - or link to an existing issue
 * Make sure that all existing tests pass
-* Make sure you followed [coding guidelines](https://github.com/red-panda-ci/docker-ubuntu-xrdp-mate-custom/blob/master/CONTRIBUTING.md#coding-guidelines)
+* Make sure you followed [coding guidelines](https://github.com/tpbtools/docker-ubuntu-xrdp-mate-custom/blob/master/CONTRIBUTING.md#coding-guidelines)
 * Add some tests for your new functionality or a test exhibiting the bug you are solving. Ideally all new tests should not pass _without_ your changes.
 
 Still interested? Coolio! Here is how to get started:
@@ -43,7 +43,7 @@ Review the [README.md](duing/README.md) file and contribute with your changes. T
 
 ### 4. Commit
 
-Red Panda `docker-ubuntu-xrdp-mate-custom` follows the [eslint Commit Message Conventions](https://github.com/willsoto/validate-commit/blob/master/conventions/eslint.md).
+TIC para Bien `docker-ubuntu-xrdp-mate-custom` follows the [eslint Commit Message Conventions](https://github.com/willsoto/validate-commit/blob/master/conventions/eslint.md).
 Example:
 
 ```sh
