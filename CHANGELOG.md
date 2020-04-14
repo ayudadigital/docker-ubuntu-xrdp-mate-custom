@@ -1,5 +1,25 @@
 # Changelog
 
+## v1.0.0 (2020-04-14)
+
+### Changes
+
+#### Breaking
+
+* Change kairops references with tpbtools ([78f78c4](https://github.com/tpbtools/docker-ubuntu-xrdp-mate-custom/commit/78f78c4))
+
+#### Build
+
+* Update Auto Release Log adding v1.0.0 info with JPL ([c19fa0a](https://github.com/tpbtools/docker-ubuntu-xrdp-mate-custom/commit/c19fa0a))
+
+#### Docs
+
+* Generate v0.8.4 changelog with JPL ([d94d215](https://github.com/tpbtools/docker-ubuntu-xrdp-mate-custom/commit/d94d215))
+
+### Authors
+
+* Pedro Amador
+
 ## v0.8.4 (2020-04-13)
 
 ### Changes
