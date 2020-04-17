@@ -1,4 +1,4 @@
-FROM rattydave/docker-ubuntu-xrdp-mate-custom:19.04
+FROM rattydave/docker-ubuntu-xrdp-mate-custom:18.04
 
 RUN apt-get update -y && \ 
     apt-get install -yqq privoxy chromium-browser chromium-chromedriver gcc make ruby ruby-dev rubygems zlibc zlib1g zlib1g-dev libxml2 libxml2-dev gedit git npm firefox tesseract-ocr && \
