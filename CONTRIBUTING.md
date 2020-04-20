@@ -10,7 +10,7 @@ Issues are always very welcome - after all. However, there are a couple of thing
   * Post a _minimal_ code sample and particular use case that reproduces the issue
   * What do you expect to happen?
   * What is actually happening?
-* Which kairops/duing version are you using?
+* Which tpbtools/duing version are you using?
 
 When you post code, please use [Github flavored markdown](https://help.github.com/articles/github-flavored-markdown), in order to get proper syntax highlighting!
 
@@ -22,7 +22,7 @@ We're glad to get pull request if any functionality is missing or something is b
 
 * Explain the issue that your PR is solving - or link to an existing issue
 * Make sure that all existing tests pass
-* Make sure you followed [coding guidelines](https://github.com/red-panda-ci/docker-ubuntu-xrdp-mate-custom/blob/master/CONTRIBUTING.md#coding-guidelines)
+* Make sure you followed [coding guidelines](https://github.com/tpbtools/docker-ubuntu-xrdp-mate-custom/blob/master/CONTRIBUTING.md#coding-guidelines)
 * Add some tests for your new functionality or a test exhibiting the bug you are solving. Ideally all new tests should not pass _without_ your changes.
 
 Still interested? Coolio! Here is how to get started:
@@ -35,7 +35,7 @@ If running on macOS, install [Docker for Mac](https://docs.docker.com/docker-for
 
 ### 2. Run the tests
 
-All tests scripts and jobs are located in the `test` folder, and are executed with "bin/test.sh" script within `kairops/duing:test` docker container
+All tests scripts and jobs are located in the `test` folder, and are executed with "bin/test.sh" script within `tpbtools/duing:test` docker container
 
 ### 3. Check the documentation
 
@@ -43,7 +43,7 @@ Review the [README.md](duing/README.md) file and contribute with your changes. T
 
 ### 4. Commit
 
-Red Panda `docker-ubuntu-xrdp-mate-custom` follows the [eslint Commit Message Conventions](https://github.com/willsoto/validate-commit/blob/master/conventions/eslint.md).
+TIC para Bien `docker-ubuntu-xrdp-mate-custom` follows the [eslint Commit Message Conventions](https://github.com/willsoto/validate-commit/blob/master/conventions/eslint.md).
 Example:
 
 ```sh
