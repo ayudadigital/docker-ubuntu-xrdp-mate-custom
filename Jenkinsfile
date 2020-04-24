@@ -19,7 +19,7 @@ def buildAndPublishDockerImage(nextReleaseNumber = "") {
         customImage.push()
         if (nextReleaseNumber != "beta") {
             customImage.push('latest')
-            customImage.push('19.04')
+            customImage.push('18.04')
         }
     }
 }
