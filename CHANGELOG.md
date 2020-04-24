@@ -1,5 +1,25 @@
 # Changelog
 
+## v1.1.1 (2020-04-24)
+
+### Changes
+
+#### Fix
+
+* Use the right 18.04 tag ([82211f8](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/commit/82211f8))
+
+#### Build
+
+* Update Auto Release Log adding v1.1.1 info with JPL ([a2e8a4e](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/commit/a2e8a4e))
+
+#### Docs
+
+* Generate v1.1.0 changelog with JPL ([75b32e3](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/commit/75b32e3))
+
+### Authors
+
+* Pedro Amador
+
 ## v1.1.0 (2020-04-24)
 
 ### Changes
