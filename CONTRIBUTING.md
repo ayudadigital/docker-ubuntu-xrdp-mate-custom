@@ -43,7 +43,7 @@ Review the [README.md](duing/README.md) file and contribute with your changes. T
 
 ### 4. Commit
 
-TIC para Bien `docker-ubuntu-xrdp-mate-custom` follows the [eslint Commit Message Conventions](https://github.com/willsoto/validate-commit/blob/master/conventions/eslint.md).
+Ayuda Digital `docker-ubuntu-xrdp-mate-custom` follows the [eslint Commit Message Conventions](https://github.com/willsoto/validate-commit/blob/master/conventions/eslint.md).
 Example:
 
 ```sh

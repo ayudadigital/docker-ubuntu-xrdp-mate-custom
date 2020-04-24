@@ -43,7 +43,7 @@ Use the Ubuntu Desktop to design your BDD test suite (yes! You have a desktop in
               -p 3389:3389 \
               --shm-size 1g \
               -dit --restart unless-stopped \
-              tpbtools/duing
+              ayudadigital/duing
     ```
 
 2. Access with a remote desktop client to localhost:3389 using `ubuntu` user and `ubuntu` password
@@ -95,7 +95,7 @@ Maybe you want to test without the desktop functionality
 2. Run the test suite
 
     ```console
-    $ docker run --rm -t -v `pwd`/reports:/opt/duingdemo/ci-scripts/test/cucumber/reports -u ubuntu tpbtools/duing bash -i -c "cd /opt/duingdemo/ci-scripts/test/cucumber; rake poltergeist"
+    $ docker run --rm -t -v `pwd`/reports:/opt/duingdemo/ci-scripts/test/cucumber/reports -u ubuntu ayudadigital/duing bash -i -c "cd /opt/duingdemo/ci-scripts/test/cucumber; rake poltergeist"
     To run a command as administrator (user "root"), use "sudo <command>".
     See "man sudo_root" for details.
 
