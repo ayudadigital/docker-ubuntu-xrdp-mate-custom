@@ -1,6 +1,6 @@
 #!groovy
 
-@Library('github.com/ayudadigital/jenkins-pipeline-library@v5.0.0') _
+@Library('github.com/ayudadigital/jenkins-pipeline-library@v6.0.2') _
 
 // Initialize global config
 cfg = jplConfig('duing', 'docker', '', [email: env.CI_NOTIFY_EMAIL_TARGETS])
