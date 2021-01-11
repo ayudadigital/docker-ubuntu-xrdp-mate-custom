@@ -2,9 +2,9 @@ FROM rattydave/docker-ubuntu-xrdp-mate-custom:18.04
 
 RUN apt-get update -y && \ 
     apt-get install -yqq privoxy chromium-browser chromium-chromedriver gcc make ruby ruby-dev rubygems zlibc zlib1g zlib1g-dev libxml2 libxml2-dev gedit git npm firefox tesseract-ocr && \
-    wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | apt-key add - && \
-    echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' >> /etc/apt/sources.list && \
-    apt-get update -y && \
+    wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | dd of=/etc/apt/trusted.gpg.d/vscodium.gpg && \
+    echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium main' | tee --append /etc/apt/sources.list.d/vscodium.list && \
+    apt-get update && \
     apt-get install -y codium && \
     apt-get -y autoclean && apt-get -y autoremove && \
     apt-get -y purge $(dpkg --get-selections | grep deinstall | sed s/deinstall//g) && \
