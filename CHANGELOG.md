@@ -1,5 +1,26 @@
 # Changelog
 
+## v1.1.2 (2021-01-11)
+
+### Changes
+
+#### Update
+
+* Fix vscodium install ([fb1e6a6](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/commit/fb1e6a6))
+
+#### Build
+
+* Update Auto Release Log adding v1.1.2 info with JPL ([6d4513c](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/commit/6d4513c))
+* Use jpl v6.0.2 ([4625e0a](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/commit/4625e0a))
+
+#### Docs
+
+* Generate v1.1.1 changelog with JPL ([42d35bf](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/commit/42d35bf))
+
+### Authors
+
+* Pedro Amador
+
 ## v1.1.1 (2020-04-24)
 
 ### Changes
